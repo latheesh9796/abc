@@ -1,0 +1,137 @@
+.searchBar {
+  height: 35px;
+  width: 40%;
+  margin-left: 20px;
+  float: left;
+  font-size: 12px;
+  text-align: left;
+}
+
+.center {
+  margin: 20px;
+}
+
+.searchButton {
+  float: left;
+  margin-left: 10px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.leftA {
+  width: 100%;
+  height: 7vh;
+}
+.leftB {
+  width: 100%;
+  height: 85vh;
+  overflow: auto;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #2196f3;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+  float: right;
+}
+
+.round-analytics1 {
+  float: left;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+.round-analytics2 {
+  float: right;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.results {
+  margin-left: 20px;
+  color: #606060;
+  width: 50%;
+}
+
+.filterDiv {
+  width: 33%;
+  background: white;
+  display: inline-block;
+}
+
+.filterDiv2 {
+  width: 33%;
+  display: inline-block;
+}
+
+.filterDiv3 {
+  width: 33%;
+  display: inline-block;
+}
+.left-align {
+  display: inline-block;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.LeftChild {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  height: 100vh;
+}
+
+.RightChild {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.loader {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.analytics {
+  height: 50vh;
+  width: 100%;
+}
+
+.hashtags {
+  color: white;
+  margin: auto;
+  background: white;
+  height: 25vh;
+  width: 90%;
+  border-radius: 20px;
+}
+
+.chartControls {
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+.logo {
+  width: 50%;
+  height: 100%;
+}

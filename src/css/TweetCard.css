@@ -1,0 +1,105 @@
+.negative {
+  border-left: 7px solid red;
+}
+
+.positive {
+  border-left: 7px solid #5fcf80;
+}
+
+.neutral {
+  border-left: 7px solid gray;
+}
+
+.card {
+  display: inline-block;
+  margin-top: 10px;
+  float: left;
+  width: 95%;
+  margin-right: 20px;
+  background: white;
+  margin-left: 20px;
+  padding-left: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.leftImage {
+  float: left;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  margin-top: 10px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.username {
+  font-style: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  width: 8%;
+  height: 100%;
+}
+
+.column-60 {
+  margin-top: 5px;
+  float: left;
+  width: 92%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+  font-size: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.username-line {
+  display: inline-block;
+}
+
+.tweetCardH2 {
+  margin-left: 20px;
+}
+.buttonStyle {
+  float: right;
+  font-size: 12px;
+  margin-right: 20px;
+  color: grey;
+  font-style: italic;
+  margin-bottom: 10px;
+}

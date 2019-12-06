@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.navbar {
+  float: left;
+  width: 70%;
+  height: 30vh;
+  background: red;
+}
+
+.hashtag {
+  float: left;
+  width: 30%;
+  height: 30vh;
+  background: blue;
+}
+.tweets {
+  float: left;
+  width: 70%;
+  height: 70vh;
+  overflow-y: scroll;
+  background: green;
+}
+.col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.parentDiv {
+  display: inline-block;
+  float: left;
+  height: 100vh;
+  width: 100%;
+}
+
+.leftChild {
+  width: 68%;
+  height: 100vh;
+  float: left;
+  background: white;
+}
+
+.rightA {
+  width: 100%;
+  height: 30vh;
+  background: white;
+}
+.rightB {
+  width: 100%;
+  height: 70vh;
+  background: white;
+}
+.rightChild {
+  width: 32%;
+  float: left;
+  height: 100vh;
+}
+a {
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
