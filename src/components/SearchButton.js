@@ -371,7 +371,7 @@ class SearchButton extends React.Component {
     }
     var news = [];
     const url =
-      "https://newsapi.org/v2/everything?q=" +
+      "http://newsapi.org/v2/everything?q=" +
       this.state.searchQuery +
       "&apiKey=53587d85c661482baadeb261e9f66ef8";
     let result = fetch(url)
